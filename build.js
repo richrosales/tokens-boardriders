@@ -32,7 +32,7 @@ function getStyleDictionaryConfig(theme) {
     "platforms": {
       "web": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
+        "buildPath": `output/css/`,
         "files": [{
             "destination": `${theme}.css`,
             "format": "css/variables",
@@ -41,9 +41,9 @@ function getStyleDictionaryConfig(theme) {
       },
       "scss": {
         "transformGroup": "scss",
-        "buildPath": `output/`,
+        "buildPath": `output/scss/`,
         "files": [{
-          "destination": `${theme}-map.scss`,
+          "destination": `${theme}.scss`,
           "format": "scss/map-deep",
           "mapName": "my-tokens"
         }]
