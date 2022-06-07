@@ -13,9 +13,9 @@ jobs:
       - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json tokens/global.json global
-      # Create a light theme, exclude the global tokens
+      # Create a rvca theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/rvca.json global,rvca,theme global
-      # Create a dark theme, exclude the global tokens
+      # Create a qs theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/qs.json global,qs,theme global
       # Convert tokens according to Style Dictionary config
       - run: node build.js
