@@ -1,22 +1,11 @@
 
 /**
  * Do not edit directly
- * Generated on Tue, 07 Jun 2022 00:49:39 GMT
+ * Generated on Tue, 07 Jun 2022 01:29:03 GMT
  */
 
-$colors-black: #191919 !default;
+$colors-black: #171717 !default;
 $colors-white: #ffffff !default;
-$colors-red-50: #FFF5F7 !default;
-$colors-red-100: #fce8ec !default;
-$colors-red-200: #f9d0d9 !default;
-$colors-red-300: #f2a2b3 !default;
-$colors-red-400: #e95c7b !default;
-$colors-red-500: #df1642 !default;
-$colors-red-600: #9c0f2e !default;
-$colors-red-700: #59091a !default;
-$colors-red-800: #2d040d !default;
-$colors-red-900: #160207 !default;
-$colors-red-950: #100105 !default;
 $colors-blue-50: #eceefe !default;
 $colors-blue-100: #d8ddfd !default;
 $colors-blue-200: #b1bafb !default;
@@ -28,6 +17,61 @@ $colors-blue-700: #253293 !default;
 $colors-blue-800: #182162 !default;
 $colors-blue-900: #0c1131 !default;
 $colors-blue-950: #060818 !default;
+$colors-purple-50: #eeecfb !default;
+$colors-purple-100: #ddd9f7 !default;
+$colors-purple-200: #bbb2ef !default;
+$colors-purple-300: #9a8ce8 !default;
+$colors-purple-400: #7865e0 !default;
+$colors-purple-500: #563fd8 !default;
+$colors-purple-600: #4532ad !default;
+$colors-purple-700: #342682 !default;
+$colors-purple-800: #221956 !default;
+$colors-purple-900: #110d2b !default;
+$colors-purple-950: #090616 !default;
+$colors-mint-50: #f9fdfe !default;
+$colors-mint-100: #f4fafd !default;
+$colors-mint-200: #e9f6fa !default;
+$colors-mint-300: #ddf1f8 !default;
+$colors-mint-400: #d2edf5 !default;
+$colors-mint-500: #c7e8f3 !default;
+$colors-mint-600: #9fbac2 !default;
+$colors-mint-700: #778b92 !default;
+$colors-mint-800: #505d61 !default;
+$colors-mint-900: #282e31 !default;
+$colors-mint-950: #171A1C !default;
+$colors-green-50: #F4FBF7 !default;
+$colors-green-100: #e8f6ee !default;
+$colors-green-200: #d1eedd !default;
+$colors-green-300: #a3ddbc !default;
+$colors-green-400: #5dc389 !default;
+$colors-green-500: #18a957 !default;
+$colors-green-600: #11763d !default;
+$colors-green-700: #0a4423 !default;
+$colors-green-800: #052211 !default;
+$colors-green-900: #021109 !default;
+$colors-green-950: #010905 !default;
+$colors-yellow-50: #FFFBF5 !default;
+$colors-yellow-100: #fff8eb !default;
+$colors-yellow-200: #fff1d7 !default;
+$colors-yellow-300: #ffe4af !default;
+$colors-yellow-400: #ffcf74 !default;
+$colors-yellow-500: #ffbb38 !default;
+$colors-yellow-600: #b38327 !default;
+$colors-yellow-700: #664b16 !default;
+$colors-yellow-800: #33250b !default;
+$colors-yellow-900: #191306 !default;
+$colors-yellow-950: #0C0903 !default;
+$colors-red-50: #FDF1F4 !default;
+$colors-red-100: #fce8ec !default;
+$colors-red-200: #f9d0d9 !default;
+$colors-red-300: #f2a2b3 !default;
+$colors-red-400: #e95c7b !default;
+$colors-red-500: #df1642 !default;
+$colors-red-600: #9c0f2e !default;
+$colors-red-700: #59091a !default;
+$colors-red-800: #2d040d !default;
+$colors-red-900: #160207 !default;
+$colors-red-950: #090103 !default;
 $colors-grey-50: #fcfcfc !default;
 $colors-grey-100: #f5f5f5 !default;
 $colors-grey-200: #eeeeee !default;
@@ -38,25 +82,75 @@ $colors-grey-600: #757575 !default;
 $colors-grey-700: #616161 !default;
 $colors-grey-800: #424242 !default;
 $colors-grey-900: #323232 !default;
-$colors-grey-950: #212121 !default;
+$colors-grey-950: #1F1F1F !default;
+$gradient-warm-flame-left-to-right: linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%) !default;
+$gradient-warm-flame-top-to-bottom: linear-gradient(270deg, #ff9a9e 0%, #fad0c4 100%) !default;
+$gradient-night-fade-left-to-right: linear-gradient(180deg, #a18cd1 0%, #fbc2eb 100%) !default;
+$gradient-night-fade-top-to-bottom: linear-gradient(270deg, #a18cd1 0%, #fbc2eb 100%) !default;
+$gradient-juicy-peach-left-to-right: linear-gradient(0deg, #ffecd2 0%, #fcb69f 100%) !default;
+$gradient-juicy-peach-top-to-bottom: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%) !default;
+$gradient-sunny-morning-left-to-right: linear-gradient(0deg, #f7ce68 0%, #fbab7e 100%) !default;
+$gradient-sunny-morning-top-to-bottom: linear-gradient(90deg, #f7ce68 0%, #fbab7e 100%) !default;
+$gradient-winter-neva-left-to-right: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%) !default;
+$gradient-winter-neva-top-to-bottom: linear-gradient(270deg, #a1c4fd 0%, #c2e9fb 100%) !default;
+$gradient-loupe-fiesta-left-to-right: linear-gradient(180deg, #105efb 0%, #199afb 100%) !default;
+$gradient-loupe-fiesta-top-to-bottom: linear-gradient(270deg, #105efb 0%, #199afb 100%) !default;
+$gradient-soft-grass-left-to-right: linear-gradient(0deg, #deecdd 0%, #c1dfc4 100%) !default;
+$gradient-soft-grass-top-to-bottom: linear-gradient(90deg, #deecdd 0%, #c1dfc4 100%) !default;
+$gradient-ripe-malinka-left-to-right: linear-gradient(0deg, #f093fb 0%, #f5576c 100%) !default;
+$gradient-ripe-malinka-top-to-bottom: linear-gradient(90deg, #f093fb 0%, #f5576c 100%) !default;
+$gradient-new-york-left-to-right: linear-gradient(180deg, #ace0f9 0%, #fff1eb 100%) !default;
+$gradient-new-york-top-to-bottom: linear-gradient(270deg, #ace0f9 0%, #fff1eb 100%) !default;
+$gradient-plum-plate-left-to-right: linear-gradient(0deg, #667eea 0%, #764ba2 100%) !default;
+$gradient-plum-plate-top-to-bottom: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !default;
+$gradient-light-mist-left-to-right: linear-gradient(180deg, #e8e8e8 0%, #ffffff 100%) !default;
+$gradient-light-mist-top-to-bottom: linear-gradient(270deg, #e8e8e8 0%, #ffffff 100%) !default;
+$gradient-miami-shore-left-to-right: linear-gradient(180deg, #5d45f9 0%, #267deb 100%) !default;
+$gradient-miami-shore-top-to-bottom: linear-gradient(270deg, #5d45f9 0%, #267deb 100%) !default;
+$gradient-vanusa-left-to-right: linear-gradient(180deg, #89216b 0%, #da4453 100%) !default;
+$gradient-vanusa-top-to-bottom: linear-gradient(270deg, #89216b 0%, #da4453 100%) !default;
+$gradient-ocean-view-left-to-right: linear-gradient(180deg, #3f2b96 0%, #a8c0ff 100%) !default;
+$gradient-ocean-view-top-to-bottom: linear-gradient(270deg, #3f2b96 0%, #a8c0ff 100%) !default;
+$gradient-sandy-bleue-left-to-right: linear-gradient(180deg, #ffe8b7 0%, #b8d8ff 100%) !default;
+$gradient-sandy-bleue-top-to-bottom: linear-gradient(270deg, #ffe8b7 0%, #b8d8ff 100%) !default;
+$gradient-quepal-left-to-right: linear-gradient(180deg, #38ef7d 0%, #11998e 100%) !default;
+$gradient-quepal-top-to-bottom: linear-gradient(270deg, #38ef7d 0%, #11998e 100%) !default;
+$gradient-sublime-light-left-to-right: linear-gradient(180deg, #6a82fb 0%, #fc5c7d 100%) !default;
+$gradient-sublime-light-top-to-bottom: linear-gradient(270deg, #6a82fb 0%, #fc5c7d 100%) !default;
+$gradient-lawrencium-left-to-right: linear-gradient(180deg, #24243e 0%, #0f0c29 100%) !default;
+$gradient-lawrencium-top-to-bottom: linear-gradient(270deg, #24243e 0%, #0f0c29 100%) !default;
+$gradient-happy-people-left-to-right: linear-gradient(180deg, #96c93d 0%, #00b09b 100%) !default;
+$gradient-happy-people-top-to-bottom: linear-gradient(270deg, #96c93d 0%, #00b09b 100%) !default;
+$gradient-delicate-left-to-right: linear-gradient(180deg, #d3cce3 0%, #e9e4f0 100%) !default;
+$gradient-delicate-top-to-bottom: linear-gradient(270deg, #d3cce3 0%, #e9e4f0 100%) !default;
+$gradient-orange-fun-left-to-right: linear-gradient(180deg, #fc4a1a 0%, #f7b733 100%) !default;
+$gradient-orange-fun-top-to-bottom: linear-gradient(270deg, #fc4a1a 0%, #f7b733 100%) !default;
+$gradient-purpink-left-to-right: linear-gradient(180deg, #7f00ff 0%, #e100ff 100%) !default;
+$gradient-purpink-top-to-bottom: linear-gradient(270deg, #7f00ff 0%, #e100ff 100%) !default;
+$gradient-dull-days-left-to-right: linear-gradient(180deg, #c9d6ff 0%, #e2e2e2 100%) !default;
+$gradient-dull-days-top-to-bottom: linear-gradient(270deg, #c9d6ff 0%, #e2e2e2 100%) !default;
+$gradient-scooter-left-to-right: linear-gradient(180deg, #5b86e5 0%, #36d1dc 100%) !default;
+$gradient-scooter-top-to-bottom: linear-gradient(270deg, #5b86e5 0%, #36d1dc 100%) !default;
+$gradient-overlay-dark-bottom-shade: linear-gradient(90deg, #30303000 0%, #303030d9 100%) !default;
+$gradient-overlay-darkop-shade: linear-gradient(90deg, #303030d9 0%, #30303000 100%) !default;
+$gradient-overlay-light-bottom-shade: linear-gradient(90deg, #ffffff00 0%, #ffffffd9 100%) !default;
+$gradient-overlay-lightop-shade: linear-gradient(90deg, #ffffffd9 0%, #ffffff00 100%) !default;
+$shadows-blur-20: 3 !default;
+$shadows-blur-40: 4 !default;
+$shadows-blur-60: 8 !default;
+$shadows-blur-80: 16 !default;
+$shadows-blur-100: 24 !default;
+$shadows-blur-base: 1 !default;
+$shadows-y-20: 1 !default;
+$shadows-y-40: 2 !default;
+$shadows-y-60: 4 !default;
+$shadows-y-80: 8 !default;
+$shadows-y-100: 16 !default;
 
 $my-tokens: (
-  '_colors': (
+  'colors': (
     'black': $colors-black,
     'white': $colors-white,
-    'red': (
-      '50': $colors-red-50,
-      '100': $colors-red-100,
-      '200': $colors-red-200,
-      '300': $colors-red-300,
-      '400': $colors-red-400,
-      '500': $colors-red-500,
-      '600': $colors-red-600,
-      '700': $colors-red-700,
-      '800': $colors-red-800,
-      '900': $colors-red-900,
-      '950': $colors-red-950
-    ),
     'blue': (
       '50': $colors-blue-50,
       '100': $colors-blue-100,
@@ -70,6 +164,71 @@ $my-tokens: (
       '900': $colors-blue-900,
       '950': $colors-blue-950
     ),
+    'purple': (
+      '50': $colors-purple-50,
+      '100': $colors-purple-100,
+      '200': $colors-purple-200,
+      '300': $colors-purple-300,
+      '400': $colors-purple-400,
+      '500': $colors-purple-500,
+      '600': $colors-purple-600,
+      '700': $colors-purple-700,
+      '800': $colors-purple-800,
+      '900': $colors-purple-900,
+      '950': $colors-purple-950
+    ),
+    'mint': (
+      '50': $colors-mint-50,
+      '100': $colors-mint-100,
+      '200': $colors-mint-200,
+      '300': $colors-mint-300,
+      '400': $colors-mint-400,
+      '500': $colors-mint-500,
+      '600': $colors-mint-600,
+      '700': $colors-mint-700,
+      '800': $colors-mint-800,
+      '900': $colors-mint-900,
+      '950': $colors-mint-950
+    ),
+    'green': (
+      '50': $colors-green-50,
+      '100': $colors-green-100,
+      '200': $colors-green-200,
+      '300': $colors-green-300,
+      '400': $colors-green-400,
+      '500': $colors-green-500,
+      '600': $colors-green-600,
+      '700': $colors-green-700,
+      '800': $colors-green-800,
+      '900': $colors-green-900,
+      '950': $colors-green-950
+    ),
+    'yellow': (
+      '50': $colors-yellow-50,
+      '100': $colors-yellow-100,
+      '200': $colors-yellow-200,
+      '300': $colors-yellow-300,
+      '400': $colors-yellow-400,
+      '500': $colors-yellow-500,
+      '600': $colors-yellow-600,
+      '700': $colors-yellow-700,
+      '800': $colors-yellow-800,
+      '900': $colors-yellow-900,
+      '950': $colors-yellow-950
+    ),
+    'red': (
+      '50': $colors-red-50,
+      '100': $colors-red-100,
+      '200': $colors-red-200,
+      '300': $colors-red-300,
+      '400': $colors-red-400,
+      '500': $colors-red-500,
+      '600': $colors-red-600,
+      '700': $colors-red-700,
+      '800': $colors-red-800,
+      '900': $colors-red-900,
+      '950': $colors-red-950
+    ),
     'grey': (
       '50': $colors-grey-50,
       '100': $colors-grey-100,
@@ -82,6 +241,127 @@ $my-tokens: (
       '800': $colors-grey-800,
       '900': $colors-grey-900,
       '950': $colors-grey-950
+    )
+  ),
+  'gradient': (
+    'Warm Flame': (
+      'Left to Right': $gradient-warm-flame-left-to-right,
+      'Top to Bottom': $gradient-warm-flame-top-to-bottom
+    ),
+    'Night Fade': (
+      'Left to Right': $gradient-night-fade-left-to-right,
+      'Top to Bottom': $gradient-night-fade-top-to-bottom
+    ),
+    'Juicy Peach': (
+      'Left to Right': $gradient-juicy-peach-left-to-right,
+      'Top to Bottom': $gradient-juicy-peach-top-to-bottom
+    ),
+    'Sunny Morning': (
+      'Left to Right': $gradient-sunny-morning-left-to-right,
+      'Top to Bottom': $gradient-sunny-morning-top-to-bottom
+    ),
+    'Winter Neva': (
+      'Left to Right': $gradient-winter-neva-left-to-right,
+      'Top to Bottom': $gradient-winter-neva-top-to-bottom
+    ),
+    'Loupe Fiesta': (
+      'Left to Right': $gradient-loupe-fiesta-left-to-right,
+      'Top to Bottom': $gradient-loupe-fiesta-top-to-bottom
+    ),
+    'Soft Grass': (
+      'Left to Right': $gradient-soft-grass-left-to-right,
+      'Top to Bottom': $gradient-soft-grass-top-to-bottom
+    ),
+    'Ripe Malinka': (
+      'Left to Right': $gradient-ripe-malinka-left-to-right,
+      'Top to Bottom': $gradient-ripe-malinka-top-to-bottom
+    ),
+    'New York': (
+      'Left to Right': $gradient-new-york-left-to-right,
+      'Top to Bottom': $gradient-new-york-top-to-bottom
+    ),
+    'Plum Plate': (
+      'Left to Right': $gradient-plum-plate-left-to-right,
+      'Top to Bottom': $gradient-plum-plate-top-to-bottom
+    ),
+    'Light Mist': (
+      'Left to Right': $gradient-light-mist-left-to-right,
+      'Top to Bottom': $gradient-light-mist-top-to-bottom
+    ),
+    'Miami Shore': (
+      'Left to Right': $gradient-miami-shore-left-to-right,
+      'Top to Bottom': $gradient-miami-shore-top-to-bottom
+    ),
+    'Vanusa': (
+      'Left to Right': $gradient-vanusa-left-to-right,
+      'Top to Bottom': $gradient-vanusa-top-to-bottom
+    ),
+    'Ocean View': (
+      'Left to Right': $gradient-ocean-view-left-to-right,
+      'Top to Bottom': $gradient-ocean-view-top-to-bottom
+    ),
+    'Sandy Bleue': (
+      'Left to Right': $gradient-sandy-bleue-left-to-right,
+      'Top to Bottom': $gradient-sandy-bleue-top-to-bottom
+    ),
+    'Quepal': (
+      'Left to Right': $gradient-quepal-left-to-right,
+      'Top to Bottom': $gradient-quepal-top-to-bottom
+    ),
+    'Sublime Light': (
+      'Left to Right': $gradient-sublime-light-left-to-right,
+      'Top to Bottom': $gradient-sublime-light-top-to-bottom
+    ),
+    'Lawrencium': (
+      'Left to Right': $gradient-lawrencium-left-to-right,
+      'Top to Bottom': $gradient-lawrencium-top-to-bottom
+    ),
+    'Happy People': (
+      'Left to Right': $gradient-happy-people-left-to-right,
+      'Top to Bottom': $gradient-happy-people-top-to-bottom
+    ),
+    'Delicate': (
+      'Left to Right': $gradient-delicate-left-to-right,
+      'Top to Bottom': $gradient-delicate-top-to-bottom
+    ),
+    'Orange Fun': (
+      'Left to Right': $gradient-orange-fun-left-to-right,
+      'Top to Bottom': $gradient-orange-fun-top-to-bottom
+    ),
+    'Purpink': (
+      'Left to Right': $gradient-purpink-left-to-right,
+      'Top to Bottom': $gradient-purpink-top-to-bottom
+    ),
+    'Dull Days': (
+      'Left to Right': $gradient-dull-days-left-to-right,
+      'Top to Bottom': $gradient-dull-days-top-to-bottom
+    ),
+    'Scooter': (
+      'Left to Right': $gradient-scooter-left-to-right,
+      'Top to Bottom': $gradient-scooter-top-to-bottom
+    ),
+    'Overlay': (
+      'Dark Bottom Shade': $gradient-overlay-dark-bottom-shade,
+      'Darkop Shade': $gradient-overlay-darkop-shade,
+      'Light Bottom Shade': $gradient-overlay-light-bottom-shade,
+      'Lightop Shade': $gradient-overlay-lightop-shade
+    )
+  ),
+  'shadows': (
+    'blur': (
+      '20': $shadows-blur-20,
+      '40': $shadows-blur-40,
+      '60': $shadows-blur-60,
+      '80': $shadows-blur-80,
+      '100': $shadows-blur-100,
+      'base': $shadows-blur-base
+    ),
+    'y': (
+      '20': $shadows-y-20,
+      '40': $shadows-y-40,
+      '60': $shadows-y-60,
+      '80': $shadows-y-80,
+      '100': $shadows-y-100
     )
   )
 );
