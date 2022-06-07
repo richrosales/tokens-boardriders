@@ -56,7 +56,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'typography-rvca', 'theme-rvca', 'typography-qs', 'theme-qs'].map(function (theme) {
+['global', 'typography-rvca', 'rvca', 'typography-qs', 'qs'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
