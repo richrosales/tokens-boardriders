@@ -15,7 +15,7 @@ jobs:
       - run: npx token-transformer tokens.json tokens/global.json global
       # Create a rvca theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/typography-rvca.json global,typography-rvca,theme global
-      - run: npx token-transformer tokens.json tokens/theme-rvca.json global,theme-rvca global,theme
+      - run: npx token-transformer tokens.json tokens/theme-rvca.json global,theme-rvca,theme global
       # Create a qs theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/typography-qs.json global,typography-qs,theme global
       - run: npx token-transformer tokens.json tokens/theme-qs.json global,theme-qs,theme global
