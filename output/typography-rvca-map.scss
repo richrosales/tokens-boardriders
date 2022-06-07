@@ -1,0 +1,181 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 07 Jun 2022 03:42:20 GMT
+ */
+
+$font-families-headlines: Gotham !default;
+$font-families-body: Heebo !default;
+$font-families-nav: Heebo !default;
+$font-weights-headlines-300: Light !default;
+$font-weights-headlines-400: Book !default;
+$font-weights-headlines-600: Medium !default;
+$font-weights-headlines-700: Bold !default;
+$font-weights-body-300: Light !default;
+$font-weights-body-400: Regular !default;
+$font-weights-body-600: SemiBold !default;
+$font-weights-body-700: Bold !default;
+$font-weights-nav-mobile-l1: Bold !default;
+$font-weights-nav-mobile-l2: Regular !default;
+$font-weights-nav-desktop-l1: Bold !default;
+$font-weights-nav-desktop-l2: Regular !default;
+$line-heights-headlines-xl: 110% !default;
+$line-heights-headlines-lg: 110% !default;
+$line-heights-headlines-default: 110% !default;
+$line-heights-headlines-sm: 130% !default;
+$line-heights-body-relaxed: 175% !default;
+$line-heights-body-default: 150% !default;
+$font-size-base: 16 !default;
+$font-size-scale: 1.2 !default;
+$font-size-xxs: 9 !default;
+$font-size-xs: 11 !default;
+$font-size-sm: 13 !default;
+$font-size-lg: 19 !default;
+$font-size-xl: 23 !default;
+$font-size-2xl: 28 !default;
+$font-size-3xl: 34 !default;
+$font-size-4xl: 41 !default;
+$font-size-5xl: 49 !default;
+$font-size-6xl: 59 !default;
+$font-size-7xl: 71 !default;
+$font-size-8xl: 85 !default;
+$font-size-9xl: 102 !default;
+$font-size-10xl: 122 !default;
+$letter-spacing-body: 0% !default;
+$letter-spacing-headlines: -1% !default;
+$letter-spacing-buttons: 3% !default;
+$letter-spacing-captions: 0% !default;
+$letter-spacing-nav-mobile-l1: 10% !default;
+$letter-spacing-nav-mobile-l2: 10% !default;
+$letter-spacing-nav-desktop-l1: 10% !default;
+$letter-spacing-nav-desktop-l2: 10% !default;
+$paragraph-spacing-default: 0 !default;
+$text-case-none: none !default;
+$text-case-captions: none !default;
+$text-case-buttons: none !default;
+$text-case-body: none !default;
+$text-case-headlines: none !default;
+$text-case-nav-mobile-l1: none !default;
+$text-case-nav-mobile-l2: none !default;
+$text-case-nav-desktop-l1: none !default;
+$text-case-nav-desktop-l2: none !default;
+$text-decoration-none: none !default;
+$text-decoration-buttons: none !default;
+$text-decoration-captions: none !default;
+$text-decoration-nav-mobile-l1: none !default;
+$text-decoration-nav-mobile-l2: none !default;
+$text-decoration-nav-desktop-l1: none !default;
+$text-decoration-nav-desktop-l2: none !default;
+
+$my-tokens: (
+  'fontFamilies': (
+    'headlines': $font-families-headlines,
+    'body': $font-families-body,
+    'nav': $font-families-nav
+  ),
+  'fontWeights': (
+    'headlines': (
+      '300': $font-weights-headlines-300,
+      '400': $font-weights-headlines-400,
+      '600': $font-weights-headlines-600,
+      '700': $font-weights-headlines-700
+    ),
+    'body': (
+      '300': $font-weights-body-300,
+      '400': $font-weights-body-400,
+      '600': $font-weights-body-600,
+      '700': $font-weights-body-700
+    ),
+    'nav': (
+      'mobile': (
+        'l1': $font-weights-nav-mobile-l1,
+        'l2': $font-weights-nav-mobile-l2
+      ),
+      'desktop': (
+        'l1': $font-weights-nav-desktop-l1,
+        'l2': $font-weights-nav-desktop-l2
+      )
+    )
+  ),
+  'lineHeights': (
+    'headlines': (
+      'xl': $line-heights-headlines-xl,
+      'lg': $line-heights-headlines-lg,
+      'default': $line-heights-headlines-default,
+      'sm': $line-heights-headlines-sm
+    ),
+    'body': (
+      'relaxed': $line-heights-body-relaxed,
+      'default': $line-heights-body-default
+    )
+  ),
+  'fontSize': (
+    'base': $font-size-base,
+    'scale': $font-size-scale,
+    'xxs': $font-size-xxs,
+    'xs': $font-size-xs,
+    'sm': $font-size-sm,
+    'lg': $font-size-lg,
+    'xl': $font-size-xl,
+    '2xl': $font-size-2xl,
+    '3xl': $font-size-3xl,
+    '4xl': $font-size-4xl,
+    '5xl': $font-size-5xl,
+    '6xl': $font-size-6xl,
+    '7xl': $font-size-7xl,
+    '8xl': $font-size-8xl,
+    '9xl': $font-size-9xl,
+    '10xl': $font-size-10xl
+  ),
+  'letterSpacing': (
+    'body': $letter-spacing-body,
+    'headlines': $letter-spacing-headlines,
+    'buttons': $letter-spacing-buttons,
+    'captions': $letter-spacing-captions,
+    'nav': (
+      'mobile': (
+        'l1': $letter-spacing-nav-mobile-l1,
+        'l2': $letter-spacing-nav-mobile-l2
+      ),
+      'desktop': (
+        'l1': $letter-spacing-nav-desktop-l1,
+        'l2': $letter-spacing-nav-desktop-l2
+      )
+    )
+  ),
+  'paragraphSpacing': (
+    'default': $paragraph-spacing-default
+  ),
+  'textCase': (
+    'none': $text-case-none,
+    'captions': $text-case-captions,
+    'buttons': $text-case-buttons,
+    'body': $text-case-body,
+    'headlines': $text-case-headlines,
+    'nav': (
+      'mobile': (
+        'l1': $text-case-nav-mobile-l1,
+        'l2': $text-case-nav-mobile-l2
+      ),
+      'desktop': (
+        'l1': $text-case-nav-desktop-l1,
+        'l2': $text-case-nav-desktop-l2
+      )
+    )
+  ),
+  'textDecoration': (
+    'none': $text-decoration-none,
+    'buttons': $text-decoration-buttons,
+    'captions': $text-decoration-captions,
+    'nav': (
+      'mobile': (
+        'l1': $text-decoration-nav-mobile-l1,
+        'l2': $text-decoration-nav-mobile-l2
+      ),
+      'desktop': (
+        'l1': $text-decoration-nav-desktop-l1,
+        'l2': $text-decoration-nav-desktop-l2
+      )
+    )
+  )
+);
