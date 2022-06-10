@@ -1005,16 +1005,12 @@
       }
     },
     "font-family": {
-      "serif": {
-        "value": "Georgia",
+      "font-1": {
+        "value": "Helvetica",
         "type": "fontFamilies"
       },
-      "sans-serif": {
+      "font-2": {
         "value": "Helvetica Neue",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "Courier",
         "type": "fontFamilies"
       }
     },
@@ -1147,25 +1143,59 @@
       }
     },
     "font-weight": {
-      "semiBold": {
-        "value": "SemiBold",
-        "type": "fontWeights",
-        "default": "600"
+      "font-1": {
+        "300": {
+          "value": "Light",
+          "type": "fontWeights",
+          "default": "300"
+        },
+        "400": {
+          "value": "Regular",
+          "type": "fontWeights",
+          "default": "400"
+        },
+        "500": {
+          "value": "Medium",
+          "type": "fontWeights",
+          "default": "600"
+        },
+        "600": {
+          "value": "Semi Bold",
+          "type": "fontWeights",
+          "default": "700"
+        },
+        "700": {
+          "value": "Bold",
+          "type": "fontWeights",
+          "default": "700"
+        }
       },
-      "regular": {
-        "value": "Regular",
-        "type": "fontWeights",
-        "default": "400"
-      },
-      "light": {
-        "value": "Light",
-        "type": "fontWeights",
-        "default": "300"
-      },
-      "bold": {
-        "value": "Bold",
-        "type": "fontWeights",
-        "default": "700"
+      "font-2": {
+        "300": {
+          "value": "Light",
+          "type": "fontWeights",
+          "default": "700"
+        },
+        "400": {
+          "value": "Regular",
+          "type": "fontWeights",
+          "default": "700"
+        },
+        "500": {
+          "value": "Medium",
+          "type": "fontWeights",
+          "default": "700"
+        },
+        "600": {
+          "value": "SemiBold",
+          "type": "fontWeights",
+          "default": "700"
+        },
+        "700": {
+          "value": "Bold",
+          "type": "fontWeights",
+          "default": "700"
+        }
       }
     },
     "line-height": {
@@ -6360,20 +6390,20 @@
       },
       "font-family": {
         "inputs": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "actions": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "typography": {
           "serif": {
-            "value": "{font-family.headlines}",
+            "value": "{font-family.font-1}",
             "type": "fontFamilies"
           },
           "sans-serif": {
-            "value": "{font-family.body}",
+            "value": "{font-family.font-2}",
             "type": "fontFamilies"
           },
           "mono": {
@@ -6382,56 +6412,56 @@
           }
         },
         "feedback": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "status": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "navigation": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         }
       },
       "font-weight": {
         "inputs": {
-          "value": "{font-weight.regular}",
+          "value": "{font-weight.font-1.400}",
           "type": "fontWeights"
         },
         "actions": {
-          "value": "{font-weight.semiBold}",
+          "value": "{font-weight.font-1.500}",
           "type": "fontWeights"
         },
         "status": {
-          "value": "{font-weight.regular}",
+          "value": "{font-weight.font-1.400}",
           "type": "fontWeights"
         },
         "typography": {
           "light": {
-            "value": "{font-weight.light}",
+            "value": "{font-weight.font-1.300}",
             "type": "fontWeights"
           },
           "regular": {
-            "value": "{font-weight.regular}",
+            "value": "{font-weight.font-1.400}",
             "type": "fontWeights"
           },
           "semibold": {
-            "value": "{font-weight.semiBold}",
+            "value": "{font-weight.font-1.500}",
             "type": "fontWeights"
           },
           "bold": {
-            "value": "{font-weight.bold}",
+            "value": "{font-weight.font-1.700}",
             "type": "fontWeights"
           }
         },
         "feedback": {
           "regular": {
-            "value": "{font-weight.regular}",
+            "value": "{font-weight.font-1.400}",
             "type": "fontWeights"
           },
           "bold": {
-            "value": "{font-weight.bold}",
+            "value": "{font-weight.font-1.700}",
             "type": "fontWeights"
           }
         }
@@ -7365,11 +7395,11 @@
       },
       "font-family": {
         "inputs": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "actions": {
-          "value": "{font-family.body}",
+          "value": "{font-family.font-2}",
           "type": "fontFamilies"
         },
         "typography": {
@@ -7918,22 +7948,18 @@
   },
   "roxy": {
     "font-family": {
-      "headlines": {
+      "font-1": {
         "value": "Hurme Geometric Sans 3",
         "type": "fontFamilies"
       },
-      "body": {
+      "font-2": {
         "value": "Hurme Geometric Sans 3",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "Zodiak Variable",
         "type": "fontFamilies"
       }
     },
     "font-weight": {
       "semiBold": {
-        "value": "Bold",
+        "value": "SemiBold",
         "type": "fontWeights",
         "default": "600"
       }
