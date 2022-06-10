@@ -6360,20 +6360,20 @@
       },
       "font-family": {
         "inputs": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "actions": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "typography": {
           "serif": {
-            "value": "{font-family.serif}",
+            "value": "{font-family.headlines}",
             "type": "fontFamilies"
           },
           "sans-serif": {
-            "value": "{font-family.sans-serif}",
+            "value": "{font-family.body}",
             "type": "fontFamilies"
           },
           "mono": {
@@ -6382,15 +6382,15 @@
           }
         },
         "feedback": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "status": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "navigation": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         }
       },
@@ -7365,11 +7365,11 @@
       },
       "font-family": {
         "inputs": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "actions": {
-          "value": "{font-family.sans-serif}",
+          "value": "{font-family.body}",
           "type": "fontFamilies"
         },
         "typography": {
@@ -7918,12 +7918,12 @@
   },
   "roxy": {
     "font-family": {
-      "serif": {
-        "value": "Zodiak Variable",
+      "headlines": {
+        "value": "Hurme Geometric Sans 3",
         "type": "fontFamilies"
       },
-      "sans-serif": {
-        "value": "Zodiak Variable",
+      "body": {
+        "value": "Hurme Geometric Sans 3",
         "type": "fontFamilies"
       },
       "mono": {
