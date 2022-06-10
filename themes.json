@@ -8159,7 +8159,7 @@
     "card": {
       "value": {
         "borderRadius": "{semantic.border-radius.ui-card}",
-        "fill": "{semantic.bg.surface}",
+        "fill": "{semantic.bg.canvas}",
         "borderWidth": "{semantic.border-width.card}",
         "paddingTop": "{semantic.spacing.ui.none.space-around}",
         "paddingRight": "{semantic.spacing.ui.none.space-around}",
