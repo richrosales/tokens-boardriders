@@ -8171,7 +8171,7 @@
     },
     "card-body": {
       "value": {
-        "itemSpacing": "{semantic.spacing.ui.xxs.space-between}"
+        "itemSpacing": "{semantic.spacing.ui.xs.space-between}"
       },
       "type": "composition"
     },
