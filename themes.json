@@ -3467,10 +3467,6 @@
         "value": "{semantic.font-family.typography.body}",
         "type": "fontFamilies"
       },
-      "serif": {
-        "value": "{semantic.font-family.typography.headings}",
-        "type": "fontFamilies"
-      },
       "xs": {
         "font-size": {
           "value": "{semantic.font-size.typography.body.xs}",
