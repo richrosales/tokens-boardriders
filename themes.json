@@ -6424,6 +6424,30 @@
           }
         }
       }
+    },
+    "tighter": {
+      "value": "-10%",
+      "type": "letterSpacing"
+    },
+    "tight": {
+      "value": "-1%",
+      "type": "letterSpacing"
+    },
+    "normal": {
+      "value": "0%",
+      "type": "letterSpacing"
+    },
+    "wide": {
+      "value": "1%",
+      "type": "letterSpacing"
+    },
+    "wider": {
+      "value": "5%",
+      "type": "letterSpacing"
+    },
+    "widest": {
+      "value": "10%",
+      "type": "letterSpacing"
     }
   },
   "32-may-test-set": {
