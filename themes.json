@@ -1595,17 +1595,17 @@
           "type": "sizing"
         }
       },
-      "x2xl": {
+      "3xl": {
         "height": {
-          "value": "{semantic.sizing.navigation.x2xl}",
+          "value": "{semantic.sizing.navigation.3xl}",
           "type": "sizing"
         },
         "width": {
-          "value": "{semantic.sizing.navigation.x2xl}",
+          "value": "{semantic.sizing.navigation.3xl}",
           "type": "sizing"
         },
         "icon-size": {
-          "value": "{semantic.sizing.navigation.icon-size.x2xl}",
+          "value": "{semantic.sizing.navigation.icon-size.3xl}",
           "type": "sizing"
         }
       },
@@ -1621,17 +1621,17 @@
         "value": "{semantic.color.navigation.border-color}",
         "type": "color"
       },
-      "x2xl-copy": {
+      "3xl-copy": {
         "height": {
-          "value": "{semantic.sizing.navigation.x2xl}",
+          "value": "{semantic.sizing.navigation.3xl}",
           "type": "sizing"
         },
         "width": {
-          "value": "{semantic.sizing.navigation.x2xl}",
+          "value": "{semantic.sizing.navigation.3xl}",
           "type": "sizing"
         },
         "icon-size": {
-          "value": "{semantic.sizing.navigation.icon-size.x2xl}",
+          "value": "{semantic.sizing.navigation.icon-size.3xl}",
           "type": "sizing"
         }
       }
@@ -2691,11 +2691,11 @@
       },
       "sm": {
         "height": {
-          "value": "{semantic.sizing.status.s.height}",
+          "value": "{semantic.sizing.status.sm.height}",
           "type": "sizing"
         },
         "icon-size": {
-          "value": "{semantic.sizing.status.s.icon-size}",
+          "value": "{semantic.sizing.status.sm.icon-size}",
           "type": "sizing"
         },
         "padding-right": {
@@ -2709,11 +2709,11 @@
       },
       "md": {
         "height": {
-          "value": "{semantic.sizing.status.m.height}",
+          "value": "{semantic.sizing.status.md.height}",
           "type": "sizing"
         },
         "icon-size": {
-          "value": "{semantic.sizing.status.m.icon-size}",
+          "value": "{semantic.sizing.status.md.icon-size}",
           "type": "sizing"
         },
         "padding-right": {
@@ -2727,11 +2727,11 @@
       },
       "lg": {
         "height": {
-          "value": "{semantic.sizing.status.l.height}",
+          "value": "{semantic.sizing.status.lg.height}",
           "type": "sizing"
         },
         "icon-size": {
-          "value": "{semantic.sizing.status.l.icon-size}",
+          "value": "{semantic.sizing.status.lg.icon-size}",
           "type": "sizing"
         },
         "padding-right": {
@@ -5998,7 +5998,7 @@
               "type": "spacing"
             }
           },
-          "s": {
+          "sm": {
             "space-between": {
               "value": "{space.200}",
               "type": "spacing"
@@ -6008,7 +6008,7 @@
               "type": "spacing"
             }
           },
-          "m": {
+          "md": {
             "space-between": {
               "value": "{space.300}",
               "type": "spacing"
@@ -6018,7 +6018,7 @@
               "type": "spacing"
             }
           },
-          "l": {
+          "lg": {
             "space-between": {
               "value": "{space.400}",
               "type": "spacing"
@@ -6038,7 +6038,7 @@
               "type": "spacing"
             }
           },
-          "xxl": {
+          "2xl": {
             "space-between": {
               "value": "{space.1200}",
               "type": "spacing"
@@ -6048,7 +6048,7 @@
               "type": "spacing"
             }
           },
-          "xxxl": {
+          "3xl": {
             "space-between": {
               "value": "{space.2000}",
               "type": "spacing"
@@ -6058,7 +6058,7 @@
               "type": "spacing"
             }
           },
-          "xxxxl": {
+          "4xl": {
             "space-around": {
               "value": "{space.1200}",
               "type": "spacing"
@@ -6317,15 +6317,15 @@
               "value": "{size.250}",
               "type": "sizing"
             },
-            "s": {
+            "sm": {
               "value": "{size.300}",
               "type": "sizing"
             },
-            "m": {
+            "md": {
               "value": "{size.400}",
               "type": "sizing"
             },
-            "l": {
+            "lg": {
               "value": "{size.400}",
               "type": "sizing"
             },
@@ -6333,11 +6333,11 @@
               "value": "{size.500}",
               "type": "sizing"
             },
-            "xxl": {
+            "2xl": {
               "value": "{size.700}",
               "type": "sizing"
             },
-            "xxxl": {
+            "3xl": {
               "value": "{size.900}",
               "type": "sizing"
             }
@@ -6350,15 +6350,15 @@
             "value": "{size.300}",
             "type": "sizing"
           },
-          "s": {
+          "sm": {
             "value": "{size.400}",
             "type": "sizing"
           },
-          "m": {
+          "md": {
             "value": "{size.450}",
             "type": "sizing"
           },
-          "l": {
+          "lg": {
             "value": "{size.500}",
             "type": "sizing"
           },
@@ -6366,17 +6366,17 @@
             "value": "{size.600}",
             "type": "sizing"
           },
-          "xxl": {
+          "2xl": {
             "value": "{size.800}",
             "type": "sizing"
           },
-          "xxxl": {
+          "3xl": {
             "value": "{size.1000}",
             "type": "sizing"
           }
         },
         "status": {
-          "s": {
+          "sm": {
             "height": {
               "value": "{semantic.component.extra-small}",
               "type": "sizing"
@@ -6386,7 +6386,7 @@
               "type": "sizing"
             }
           },
-          "m": {
+          "md": {
             "height": {
               "value": "{semantic.component.small}",
               "type": "sizing"
@@ -6396,7 +6396,7 @@
               "type": "sizing"
             }
           },
-          "l": {
+          "lg": {
             "height": {
               "value": "{semantic.component.medium}",
               "type": "sizing"
