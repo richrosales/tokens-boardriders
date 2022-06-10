@@ -7619,7 +7619,7 @@
     "semantic": {
       "fg": {
         "default": {
-          "value": "{color.NeutralGray.600}",
+          "value": "{color.NeutralGray.700}",
           "type": "color"
         },
         "muted": {
@@ -7689,7 +7689,7 @@
       },
       "primary": {
         "default": {
-          "value": "{color.NeutralGray.600}",
+          "value": "{color.NeutralGray.900}",
           "type": "color"
         },
         "emphasised": {
