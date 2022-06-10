@@ -7790,6 +7790,14 @@
       }
     }
   },
+  "desktop-typography": {
+    "font-size": {
+      "scale": {
+        "value": "1.6",
+        "type": "fontSizes"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "4ecffec08660635c6a1954a044677620d6afb24b",
