@@ -5555,6 +5555,10 @@
         },
         "typography": {
           "heading": {
+            "xxs": {
+              "value": "{font-size.base} * 1.4",
+              "type": "fontSizes"
+            },
             "xs": {
               "value": "{font-size.base} * 1.6",
               "type": "fontSizes"
