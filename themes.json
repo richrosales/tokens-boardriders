@@ -1034,62 +1034,6 @@
         "type": "other"
       }
     },
-    "font-weight": {
-      "font-1": {
-        "300": {
-          "value": "Light",
-          "type": "fontWeights",
-          "default": "300"
-        },
-        "400": {
-          "value": "Regular",
-          "type": "fontWeights",
-          "default": "400"
-        },
-        "500": {
-          "value": "Medium",
-          "type": "fontWeights",
-          "default": "600"
-        },
-        "600": {
-          "value": "Semi Bold",
-          "type": "fontWeights",
-          "default": "700"
-        },
-        "700": {
-          "value": "Bold",
-          "type": "fontWeights",
-          "default": "700"
-        }
-      },
-      "font-2": {
-        "300": {
-          "value": "Light",
-          "type": "fontWeights",
-          "default": "700"
-        },
-        "400": {
-          "value": "Regular",
-          "type": "fontWeights",
-          "default": "700"
-        },
-        "500": {
-          "value": "Medium",
-          "type": "fontWeights",
-          "default": "700"
-        },
-        "600": {
-          "value": "SemiBold",
-          "type": "fontWeights",
-          "default": "700"
-        },
-        "700": {
-          "value": "Bold",
-          "type": "fontWeights",
-          "default": "700"
-        }
-      }
-    },
     "line-height": {
       "1": {
         "value": "130%",
@@ -6096,42 +6040,80 @@
       },
       "font-weight": {
         "inputs": {
-          "value": "{font-weight.font-1.400}",
+          "value": "{semantic.font-weight.typography.body.400}",
           "type": "fontWeights"
         },
         "actions": {
-          "value": "{font-weight.font-1.500}",
+          "value": "{semantic.font-weight.typography.body.500}",
           "type": "fontWeights"
         },
         "status": {
-          "value": "{font-weight.font-1.400}",
+          "value": "{semantic.font-weight.typography.body.400}",
           "type": "fontWeights"
         },
         "typography": {
-          "light": {
-            "value": "{font-weight.font-1.300}",
-            "type": "fontWeights"
+          "headings": {
+            "300": {
+              "value": "Light",
+              "type": "fontWeights",
+              "default": "300"
+            },
+            "400": {
+              "value": "Regular",
+              "type": "fontWeights",
+              "default": "400"
+            },
+            "500": {
+              "value": "Medium",
+              "type": "fontWeights",
+              "default": "600"
+            },
+            "600": {
+              "value": "Semi Bold",
+              "type": "fontWeights",
+              "default": "700"
+            },
+            "700": {
+              "value": "Bold",
+              "type": "fontWeights",
+              "default": "700"
+            }
           },
-          "regular": {
-            "value": "{font-weight.font-1.400}",
-            "type": "fontWeights"
-          },
-          "semibold": {
-            "value": "{font-weight.font-1.500}",
-            "type": "fontWeights"
-          },
-          "bold": {
-            "value": "{font-weight.font-1.700}",
-            "type": "fontWeights"
+          "body": {
+            "300": {
+              "value": "Light",
+              "type": "fontWeights",
+              "default": "700"
+            },
+            "400": {
+              "value": "Regular",
+              "type": "fontWeights",
+              "default": "700"
+            },
+            "500": {
+              "value": "Medium",
+              "type": "fontWeights",
+              "default": "700"
+            },
+            "600": {
+              "value": "SemiBold",
+              "type": "fontWeights",
+              "default": "700"
+            },
+            "700": {
+              "value": "Bold",
+              "type": "fontWeights",
+              "default": "700"
+            }
           }
         },
         "feedback": {
           "regular": {
-            "value": "{font-weight.font-1.400}",
+            "value": "{semantic.font-weight.typography.body.400}",
             "type": "fontWeights"
           },
           "bold": {
-            "value": "{font-weight.font-1.700}",
+            "value": "{semantic.font-weight.typography.body.700}",
             "type": "fontWeights"
           }
         }
