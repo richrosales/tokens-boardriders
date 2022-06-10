@@ -3478,16 +3478,6 @@
         "type": "lineHeights"
       }
     },
-    "code": {
-      "font-weight": {
-        "value": "{semantic.font-weight.typography.regular}",
-        "type": "fontWeights"
-      },
-      "line-height": {
-        "value": "{semantic.line-height.typography.code}",
-        "type": "lineHeights"
-      }
-    },
     "divider": {
       "default": {
         "color": {
@@ -6007,11 +5997,33 @@
               "value": "{space.1200}",
               "type": "spacing"
             }
+          },
+          "none": {
+            "space-between": {
+              "value": "{space.0}",
+              "type": "spacing"
+            },
+            "space-around": {
+              "value": "{space.0}",
+              "type": "spacing"
+            }
           }
         },
         "card": {
           "padding-left": {
-            "value": "0",
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.100}",
             "type": "spacing"
           }
         }
@@ -8149,18 +8161,17 @@
         "borderRadius": "{semantic.border-radius.ui-card}",
         "fill": "{semantic.bg.surface}",
         "borderWidth": "{semantic.border-width.card}",
-        "paddingTop": "{space.raw}",
-        "paddingRight": "{space.raw}",
-        "paddingLeft": "{space.raw}",
-        "paddingBottom": "{space.raw}",
-        "itemSpacing": "{space.math}"
+        "paddingTop": "{semantic.spacing.ui.none.space-around}",
+        "paddingRight": "{semantic.spacing.ui.none.space-around}",
+        "paddingLeft": "{semantic.spacing.ui.none.space-around}",
+        "paddingBottom": "{semantic.spacing.ui.xs.space-around}",
+        "itemSpacing": "{semantic.spacing.ui.xxs.space-between}"
       },
       "type": "composition"
     },
     "card-body": {
       "value": {
-        "itemSpacing": "8",
-        "fill": "#000000"
+        "itemSpacing": "{semantic.spacing.ui.xxs.space-between}"
       },
       "type": "composition"
     },
