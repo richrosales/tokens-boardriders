@@ -5560,7 +5560,7 @@
               "type": "fontSizes"
             },
             "xs": {
-              "value": "{font-size.base} * 1.6",
+              "value": "roundTo({semantic.font-size.typography.heading.xxs} * {font-size.scale}, 0)",
               "type": "fontSizes"
             },
             "sm": {
@@ -7793,7 +7793,7 @@
   "desktop-typography": {
     "font-size": {
       "scale": {
-        "value": "1.6",
+        "value": "1.25",
         "type": "fontSizes"
       }
     }
