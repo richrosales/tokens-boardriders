@@ -7219,15 +7219,15 @@
     "semantic": {
       "fg": {
         "default": {
-          "value": "{color.NeutralGray.700}",
+          "value": "{color.NeutralGray.900}",
           "type": "color"
         },
         "muted": {
-          "value": "{color.NeutralGray.500}",
+          "value": "{color.NeutralGray.700}",
           "type": "color"
         },
         "subtle": {
-          "value": "{color.NeutralGray.400}",
+          "value": "{color.NeutralGray.500}",
           "type": "color"
         },
         "on-accent": {
