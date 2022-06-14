@@ -3001,25 +3001,25 @@
       },
       "light": {
         "font-weight": {
-          "value": "{semantic.font-weight.typography.light}",
+          "value": "{semantic.font-weight.typography.headings.300}",
           "type": "fontWeights"
         }
       },
       "regular": {
         "font-weight": {
-          "value": "{semantic.font-weight.typography.regular}",
+          "value": "{semantic.font-weight.typography.headings.400}",
           "type": "fontWeights"
         }
       },
       "semibold": {
         "font-weight": {
-          "value": "{semantic.font-weight.typography.semibold}",
+          "value": "{semantic.font-weight.typography.headings.600}",
           "type": "fontWeights"
         }
       },
       "bold": {
         "font-weight": {
-          "value": "{semantic.font-weight.typography.bold}",
+          "value": "{semantic.font-weight.typography.headings.700}",
           "type": "fontWeights"
         }
       },
@@ -3392,15 +3392,15 @@
         "type": "lineHeights"
       },
       "font-weight": {
-        "value": "{semantic.font-weight.typography.regular}",
+        "value": "{semantic.font-weight.typography.body.400}",
         "type": "fontWeights"
       },
       "strong": {
-        "value": "{semantic.font-weight.typography.bold}",
+        "value": "{semantic.font-weight.typography.body.700}",
         "type": "fontWeights"
       },
       "emphasized": {
-        "value": "{semantic.font-weight.typography.bold}",
+        "value": "{semantic.font-weight.typography.body.700}",
         "type": "fontWeights"
       },
       "sans": {
@@ -3455,18 +3455,6 @@
         "font-family": {
           "value": "{semantic.font-family.typography.body}",
           "type": "fontFamilies"
-        }
-      },
-      "light": {
-        "font-weight": {
-          "value": "{semantic.font-weight.typography.light}",
-          "type": "fontWeights"
-        }
-      },
-      "regular": {
-        "font-weight": {
-          "value": "{semantic.font-weight.typography.regular}",
-          "type": "fontWeights"
         }
       },
       "line-height": {
