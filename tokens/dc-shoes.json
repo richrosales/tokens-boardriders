@@ -1,17 +1,17 @@
 {
   "font-family": {
     "font-1": {
-      "value": "pragmatica",
+      "value": "Pragmatica",
       "type": "fontFamilies"
     },
     "font-2": {
-      "value": "pragmatica",
+      "value": "Pragmatica",
       "type": "fontFamilies"
     }
   },
   "font-weight": {
     "semiBold": {
-      "value": "SemiBold",
+      "value": "Bold",
       "type": "fontWeights",
       "default": "600"
     }
