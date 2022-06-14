@@ -1,11 +1,11 @@
 {
   "font-family": {
     "font-1": {
-      "value": "Hurme Geometric Sans 3",
+      "value": "\"Hurme Geometric Sans 3\"",
       "type": "fontFamilies"
     },
     "font-2": {
-      "value": "Hurme Geometric Sans 3",
+      "value": "\"Hurme Geometric Sans 3\"",
       "type": "fontFamilies"
     }
   },
@@ -1732,33 +1732,33 @@
     },
     "font-family": {
       "inputs": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       },
       "actions": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       },
       "typography": {
         "headings": {
-          "value": "Hurme Geometric Sans 3",
+          "value": "\"Hurme Geometric Sans 3\"",
           "type": "fontFamilies"
         },
         "body": {
-          "value": "Hurme Geometric Sans 3",
+          "value": "\"Hurme Geometric Sans 3\"",
           "type": "fontFamilies"
         }
       },
       "feedback": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       },
       "status": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       },
       "navigation": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       }
     },

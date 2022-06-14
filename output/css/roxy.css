@@ -1,6 +1,6 @@
 .roxy-theme {
-          --font-family-font-1: Hurme Geometric Sans 3;
-  --font-family-font-2: Hurme Geometric Sans 3;
+          --font-family-font-1: "Hurme Geometric Sans 3";
+  --font-family-font-2: "Hurme Geometric Sans 3";
   --font-weight-semi-bold: SemiBold;
   --semantic-fg-default: #171717;
   --semantic-fg-muted: #404040;
@@ -374,13 +374,13 @@
   --semantic-font-size-inputs-md: 12;
   --semantic-font-size-inputs-lg: 14;
   --semantic-font-size-inputs-xl: 17;
-  --semantic-font-family-inputs: Hurme Geometric Sans 3;
-  --semantic-font-family-actions: Hurme Geometric Sans 3;
-  --semantic-font-family-typography-headings: Hurme Geometric Sans 3;
-  --semantic-font-family-typography-body: Hurme Geometric Sans 3;
-  --semantic-font-family-feedback: Hurme Geometric Sans 3;
-  --semantic-font-family-status: Hurme Geometric Sans 3;
-  --semantic-font-family-navigation: Hurme Geometric Sans 3;
+  --semantic-font-family-inputs: "Hurme Geometric Sans 3";
+  --semantic-font-family-actions: "Hurme Geometric Sans 3";
+  --semantic-font-family-typography-headings: "Hurme Geometric Sans 3";
+  --semantic-font-family-typography-body: "Hurme Geometric Sans 3";
+  --semantic-font-family-feedback: "Hurme Geometric Sans 3";
+  --semantic-font-family-status: "Hurme Geometric Sans 3";
+  --semantic-font-family-navigation: "Hurme Geometric Sans 3";
   --semantic-font-weight-inputs: Regular;
   --semantic-font-weight-actions: Medium;
   --semantic-font-weight-status: Regular;
