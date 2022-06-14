@@ -8286,26 +8286,203 @@
       }
     }
   },
+  "dc-shoes": {
+    "font-family": {
+      "font-1": {
+        "value": "Hurme Geometric Sans 3",
+        "type": "fontFamilies"
+      },
+      "font-2": {
+        "value": "Hurme Geometric Sans 3",
+        "type": "fontFamilies"
+      }
+    },
+    "font-weight": {
+      "semiBold": {
+        "value": "SemiBold",
+        "type": "fontWeights",
+        "default": "600"
+      }
+    },
+    "semantic": {
+      "fg": {
+        "default": {
+          "value": "{color.NeutralGray.900}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.NeutralGray.700}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.NeutralGray.500}",
+          "type": "color"
+        },
+        "on-accent": {
+          "value": "{color.neutrals.white}",
+          "type": "color"
+        },
+        "on-disabled": {
+          "value": "{color.NeutralGray.400}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.NeutralGray.300}",
+          "type": "color"
+        },
+        "accent": {
+          "value": "{semantic.cta.default}",
+          "type": "color"
+        }
+      },
+      "bg": {
+        "surface": {
+          "value": "{color.stone.100}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.stone.200}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#F2F3F2",
+          "type": "color"
+        },
+        "canvas": {
+          "value": "{color.neutrals.white}",
+          "type": "color"
+        }
+      },
+      "cta": {
+        "default": {
+          "value": "{color.NeutralGray.700}",
+          "type": "color"
+        },
+        "emphasised": {
+          "value": "{color.NeutralGray.700}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.NeutralGray.500}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.NeutralGray.200}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.400}",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "default": {
+          "value": "{color.NeutralGray.900}",
+          "type": "color"
+        },
+        "emphasised": {
+          "value": "{color.NeutralGray.700}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.NeutralGray.500}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.NeutralGray.200}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.400}",
+          "type": "color"
+        }
+      },
+      "ui": {
+        "shadow": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "hsla(0, 0%, 0%, 0)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        }
+      },
+      "inputs": {
+        "background": {
+          "value": "{semantic.bg.muted}",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "actions": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
+        },
+        "inputs": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
+        },
+        "status": {
+          "value": "{semantic.border.radius.small}",
+          "type": "borderRadius"
+        },
+        "ui-card": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
+        },
+        "ui": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
+        }
+      },
+      "border-width": {
+        "actions": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        },
+        "inputs": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        }
+      },
+      "color": {
+        "actions": {
+          "primary": {
+            "default": {
+              "text-color": {
+                "value": "{semantic.fg.default}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "spacing": {
+        "ui": {
+          "m": {
+            "space-between": {
+              "value": "{space.150}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "4ecffec08660635c6a1954a044677620d6afb24b",
       "name": "Brand I",
       "selectedTokenSets": {
         "core": "source",
-        "bcore": "enabled",
         "comp": "enabled",
         "semantic": "enabled",
-        "AL": "disabled",
-        "AD": "disabled",
-        "BL": "disabled",
-        "BD": "disabled",
-        "CL": "disabled",
-        "CD": "disabled",
-        "INV-L": "enabled",
-        "INV-D": "disabled",
-        "32-may-test-set": "disabled",
-        "31-may-test-set": "disabled",
-        "testing-set": "disabled"
+        "dc-shoes": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -8316,12 +8493,9 @@
         "core": "source",
         "comp": "enabled",
         "semantic": "enabled",
-        "32-may-test-set": "disabled",
-        "RVCA": "disabled",
-        "QS": "enabled",
-        "BBG": "disabled",
         "inverse": "disabled",
-        "qs": "enabled"
+        "qs": "enabled",
+        "dc-shoes": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -8332,12 +8506,9 @@
         "core": "source",
         "comp": "enabled",
         "semantic": "enabled",
-        "32-may-test-set": "disabled",
-        "RVCA": "disabled",
-        "QS": "disabled",
-        "BBG": "enabled",
         "inverse": "disabled",
-        "billabong": "enabled"
+        "billabong": "enabled",
+        "dc-shoes": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -8348,11 +8519,11 @@
         "core": "source",
         "comp": "enabled",
         "semantic": "enabled",
-        "32-may-test-set": "disabled",
         "inverse": "disabled",
         "billabong": "disabled",
         "rvca": "enabled",
-        "qs": "disabled"
+        "qs": "disabled",
+        "dc-shoes": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -8363,12 +8534,12 @@
         "core": "source",
         "comp": "enabled",
         "semantic": "enabled",
-        "32-may-test-set": "disabled",
         "inverse": "disabled",
         "billabong": "disabled",
         "rvca": "disabled",
         "qs": "disabled",
-        "roxy": "enabled"
+        "roxy": "enabled",
+        "dc-shoes": "disabled"
       },
       "$figmaStyleReferences": {}
     }
