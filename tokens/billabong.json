@@ -1,0 +1,121 @@
+{
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#4b5563",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#6b7280",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "on-disabled": {
+        "value": "#9ca3af",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#d1d5db",
+        "type": "color"
+      },
+      "accent": {
+        "value": "#0d9488",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#F6FCFB",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "#f9fafb",
+        "type": "color"
+      }
+    },
+    "cta": {
+      "default": {
+        "value": "#0d9488",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "#0f766e",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#14b8a6",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#99f6e4",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#9ca3af",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "#2dd4bf",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "#14b8a6",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#5eead4",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#99f6e4",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#9ca3af",
+        "type": "color"
+      }
+    },
+    "ui": {
+      "shadow": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 0,
+            "color": "#000000",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    },
+    "border-radius": {
+      "ui-card": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "ui": {
+        "value": "4px",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
