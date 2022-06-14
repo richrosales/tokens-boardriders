@@ -15,13 +15,21 @@ jobs:
       - run: npx token-transformer tokens.json tokens/global.json global
       # Create main theme, exclude the global tokens
       # - run: npx token-transformer tokens.json tokens/rvca.json global,typography-rvca,rvca global
-      - run: npx token-transformer tokens.json tokens/semantic.json core,comp,semantic,billabong core,comp
+      # - run: npx token-transformer tokens.json tokens/semantic.json core,semantic core,comp
+      # - run: npx token-transformer tokens.json tokens/comp.json core,semantic,comp core,semantic
        # Create brand themes theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/billabong.json core,comp,semantic,billabong core,semantic,comp
-      - run: npx token-transformer tokens.json tokens/dc-shoes.json core,comp,semantic,dc-shoes core,semantic,comp
-      - run: npx token-transformer tokens.json tokens/qs.json core,comp,semantic,qs core,semantic,comp
-      - run: npx token-transformer tokens.json tokens/roxy.json core,comp,semantic,roxy core,semantic,comp
-      - run: npx token-transformer tokens.json tokens/rvca.json core,comp,semantic,rvca core,semantic,comp
+      # - run: npx token-transformer tokens.json tokens/billabong.json core,semantic,comp,billabong core,semantic,comp
+      # - run: npx token-transformer tokens.json tokens/dc-shoes.json core,semantic,comp,dc-shoes core,semantic,comp
+      # - run: npx token-transformer tokens.json tokens/qs.json core,semantic,comp,qs core,semantic,comp
+      # - run: npx token-transformer tokens.json tokens/roxy.json core,semantic,comp,roxy core,semantic,comp
+      # - run: npx token-transformer tokens.json tokens/rvca.json core,semantic,comp,rvca core,semantic,comp
+
+      - run: npx token-transformer tokens.json tokens/billabong.json core,semantic,comp,billabong core
+      - run: npx token-transformer tokens.json tokens/dc-shoes.json core,semantic,comp,dc-shoes core
+      - run: npx token-transformer tokens.json tokens/qs.json core,semantic,comp,qs core
+      - run: npx token-transformer tokens.json tokens/roxy.json core,semantic,comp,roxy core
+      - run: npx token-transformer tokens.json tokens/rvca.json core,semantic,comp,rvca core
+
       # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
