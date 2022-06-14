@@ -1422,10 +1422,6 @@
           "value": "{semantic.sizing.navigation.xxs}",
           "type": "sizing"
         },
-        "font-size": {
-          "value": "{semantic.font-size.navigation.xxs}",
-          "type": "fontSizes"
-        },
         "icon-size": {
           "value": "{semantic.sizing.navigation.icon-size.xxs}",
           "type": "sizing"
