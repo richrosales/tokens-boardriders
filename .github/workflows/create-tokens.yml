@@ -13,12 +13,13 @@ jobs:
       - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json tokens/global.json global
-      # Create a rvca theme, exclude the global tokens
-      # - run: npx token-transformer tokens.json tokens/typography-rvca.json global,typography-rvca global
-      - run: npx token-transformer tokens.json tokens/rvca.json global,typography-rvca,rvca global
-      # Create a qs theme, exclude the global tokens
-      #- run: npx token-transformer tokens.json tokens/typography-qs.json global,typography-qs global
-      - run: npx token-transformer tokens.json tokens/qs.json global,typography-qs,qs global
+      # Create brand themes theme, exclude the global tokens
+      # - run: npx token-transformer tokens.json tokens/rvca.json global,typography-rvca,rvca global
+      - run: npx token-transformer tokens.json tokens/billabong.json core,comp,semantic,billabong core
+      - run: npx token-transformer tokens.json tokens/dc-shoes.json core,comp,semantic,dc-shoes core
+      - run: npx token-transformer tokens.json tokens/qs.json core,comp,semantic,qs core
+      - run: npx token-transformer tokens.json tokens/roxy.json core,comp,semantic,roxy core
+      - run: npx token-transformer tokens.json tokens/rvca.json core,comp,semantic,rvca core
       # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
