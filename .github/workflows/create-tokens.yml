@@ -24,11 +24,11 @@ jobs:
       # - run: npx token-transformer tokens.json tokens/roxy.json core,semantic,comp,roxy core,semantic,comp
       # - run: npx token-transformer tokens.json tokens/rvca.json core,semantic,comp,rvca core,semantic,comp
 
-      - run: npx token-transformer tokens.json tokens/billabong.json core,semantic,comp,billabong core
-      - run: npx token-transformer tokens.json tokens/dc-shoes.json core,semantic,comp,dc-shoes core
-      - run: npx token-transformer tokens.json tokens/qs.json core,semantic,comp,qs core
-      - run: npx token-transformer tokens.json tokens/roxy.json core,semantic,comp,roxy core
-      - run: npx token-transformer tokens.json tokens/rvca.json core,semantic,comp,rvca core
+      - run: npx token-transformer tokens.json tokens/billabong.json core,semantic,comp,billabong core,comp
+      - run: npx token-transformer tokens.json tokens/dc-shoes.json core,semantic,comp,dc-shoes core,comp
+      - run: npx token-transformer tokens.json tokens/qs.json core,semantic,comp,qs core,comp
+      - run: npx token-transformer tokens.json tokens/roxy.json core,semantic,comp,roxy core,comp
+      - run: npx token-transformer tokens.json tokens/rvca.json core,semantic,comp,rvca core,comp
 
       # Convert tokens according to Style Dictionary config
       - run: node build.js
