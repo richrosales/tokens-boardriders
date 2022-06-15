@@ -31,8 +31,8 @@
   --semantic-inputs-border-default: #e7e5e4;
   --semantic-inputs-border-disabled: #a3a3a3;
   --semantic-inputs-fg-disabled: #d4d4d4;
-  --semantic-border-radius-actions: 8px;
-  --semantic-border-radius-inputs: 0px;
+  --semantic-border-radius-actions: 4px;
+  --semantic-border-radius-inputs: 4px;
   --semantic-border-radius-status: 0px;
   --semantic-border-radius-ui-card: 0px;
   --semantic-border-radius-ui: 0px;
