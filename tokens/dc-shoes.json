@@ -160,7 +160,7 @@
     },
     "border-radius": {
       "actions": {
-        "value": "0px",
+        "value": "8px",
         "type": "borderRadius"
       },
       "inputs": {
