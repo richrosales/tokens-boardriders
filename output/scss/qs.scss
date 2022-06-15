@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 15 Jun 2022 05:33:40 GMT
+ * Generated on Wed, 15 Jun 2022 06:06:42 GMT
  */
 
 $font-family-serif: Zodiak Variable !default;
@@ -387,9 +387,11 @@ $semantic-font-family-typography-body: Helvetica Neue !default;
 $semantic-font-family-feedback: Helvetica Neue !default;
 $semantic-font-family-status: Helvetica Neue !default;
 $semantic-font-family-navigation: Helvetica Neue !default;
-$semantic-font-weight-inputs: Regular !default;
+$semantic-font-weight-body: Regular !default;
 $semantic-font-weight-actions: Medium !default;
 $semantic-font-weight-status: Regular !default;
+$semantic-font-weight-headings: Bold !default;
+$semantic-font-weight-card-headings: Semi Bold !default;
 $semantic-font-weight-typography-headings-300: Light !default;
 $semantic-font-weight-typography-headings-400: Regular !default;
 $semantic-font-weight-typography-headings-500: Medium !default;
@@ -1070,9 +1072,11 @@ $my-tokens: (
       'navigation': $semantic-font-family-navigation
     ),
     'font-weight': (
-      'inputs': $semantic-font-weight-inputs,
+      'body': $semantic-font-weight-body,
       'actions': $semantic-font-weight-actions,
       'status': $semantic-font-weight-status,
+      'headings': $semantic-font-weight-headings,
+      'card-headings': $semantic-font-weight-card-headings,
       'typography': (
         'headings': (
           '300': $semantic-font-weight-typography-headings-300,

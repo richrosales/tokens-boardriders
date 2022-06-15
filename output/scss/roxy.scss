@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 15 Jun 2022 05:33:40 GMT
+ * Generated on Wed, 15 Jun 2022 06:06:42 GMT
  */
 
 $font-family-font-1: "Hurme Geometric Sans 3" !default;
@@ -303,6 +303,23 @@ $semantic-spacing-card-padding-left: 0 !default;
 $semantic-spacing-card-padding-right: 0 !default;
 $semantic-spacing-card-padding-top: 0 !default;
 $semantic-spacing-card-padding-bottom: 8 !default;
+$semantic-font-weight-headings: Regular !default;
+$semantic-font-weight-body: Regular !default;
+$semantic-font-weight-actions: Medium !default;
+$semantic-font-weight-status: Regular !default;
+$semantic-font-weight-card-headings: Semi Bold !default;
+$semantic-font-weight-typography-headings-300: Light !default;
+$semantic-font-weight-typography-headings-400: Regular !default;
+$semantic-font-weight-typography-headings-500: Medium !default;
+$semantic-font-weight-typography-headings-600: Semi Bold !default;
+$semantic-font-weight-typography-headings-700: Bold !default;
+$semantic-font-weight-typography-body-300: Light !default;
+$semantic-font-weight-typography-body-400: Regular !default;
+$semantic-font-weight-typography-body-500: Medium !default;
+$semantic-font-weight-typography-body-600: SemiBold !default;
+$semantic-font-weight-typography-body-700: Bold !default;
+$semantic-font-weight-feedback-regular: Regular !default;
+$semantic-font-weight-feedback-bold: Bold !default;
 $semantic-secondary-default: #4b5563 !default;
 $semantic-secondary-emphasised: #6b7280 !default;
 $semantic-secondary-muted: #d1d5db !default;
@@ -386,21 +403,6 @@ $semantic-font-family-typography-body: "Hurme Geometric Sans 3" !default;
 $semantic-font-family-feedback: "Hurme Geometric Sans 3" !default;
 $semantic-font-family-status: "Hurme Geometric Sans 3" !default;
 $semantic-font-family-navigation: "Hurme Geometric Sans 3" !default;
-$semantic-font-weight-inputs: Regular !default;
-$semantic-font-weight-actions: Medium !default;
-$semantic-font-weight-status: Regular !default;
-$semantic-font-weight-typography-headings-300: Light !default;
-$semantic-font-weight-typography-headings-400: Regular !default;
-$semantic-font-weight-typography-headings-500: Medium !default;
-$semantic-font-weight-typography-headings-600: Semi Bold !default;
-$semantic-font-weight-typography-headings-700: Bold !default;
-$semantic-font-weight-typography-body-300: Light !default;
-$semantic-font-weight-typography-body-400: Regular !default;
-$semantic-font-weight-typography-body-500: Medium !default;
-$semantic-font-weight-typography-body-600: SemiBold !default;
-$semantic-font-weight-typography-body-700: Bold !default;
-$semantic-font-weight-feedback-regular: Regular !default;
-$semantic-font-weight-feedback-bold: Bold !default;
 $semantic-sizing-actions-small: 32 !default;
 $semantic-sizing-actions-medium: 40 !default;
 $semantic-sizing-actions-large: 48 !default;
@@ -946,6 +948,33 @@ $my-tokens: (
         'padding-bottom': $semantic-spacing-card-padding-bottom
       )
     ),
+    'font-weight': (
+      'headings': $semantic-font-weight-headings,
+      'body': $semantic-font-weight-body,
+      'actions': $semantic-font-weight-actions,
+      'status': $semantic-font-weight-status,
+      'card-headings': $semantic-font-weight-card-headings,
+      'typography': (
+        'headings': (
+          '300': $semantic-font-weight-typography-headings-300,
+          '400': $semantic-font-weight-typography-headings-400,
+          '500': $semantic-font-weight-typography-headings-500,
+          '600': $semantic-font-weight-typography-headings-600,
+          '700': $semantic-font-weight-typography-headings-700
+        ),
+        'body': (
+          '300': $semantic-font-weight-typography-body-300,
+          '400': $semantic-font-weight-typography-body-400,
+          '500': $semantic-font-weight-typography-body-500,
+          '600': $semantic-font-weight-typography-body-600,
+          '700': $semantic-font-weight-typography-body-700
+        )
+      ),
+      'feedback': (
+        'regular': $semantic-font-weight-feedback-regular,
+        'bold': $semantic-font-weight-feedback-bold
+      )
+    ),
     'secondary': (
       'default': $semantic-secondary-default,
       'emphasised': $semantic-secondary-emphasised,
@@ -1066,31 +1095,6 @@ $my-tokens: (
       'feedback': $semantic-font-family-feedback,
       'status': $semantic-font-family-status,
       'navigation': $semantic-font-family-navigation
-    ),
-    'font-weight': (
-      'inputs': $semantic-font-weight-inputs,
-      'actions': $semantic-font-weight-actions,
-      'status': $semantic-font-weight-status,
-      'typography': (
-        'headings': (
-          '300': $semantic-font-weight-typography-headings-300,
-          '400': $semantic-font-weight-typography-headings-400,
-          '500': $semantic-font-weight-typography-headings-500,
-          '600': $semantic-font-weight-typography-headings-600,
-          '700': $semantic-font-weight-typography-headings-700
-        ),
-        'body': (
-          '300': $semantic-font-weight-typography-body-300,
-          '400': $semantic-font-weight-typography-body-400,
-          '500': $semantic-font-weight-typography-body-500,
-          '600': $semantic-font-weight-typography-body-600,
-          '700': $semantic-font-weight-typography-body-700
-        )
-      ),
-      'feedback': (
-        'regular': $semantic-font-weight-feedback-regular,
-        'bold': $semantic-font-weight-feedback-bold
-      )
     ),
     'sizing': (
       'actions': (

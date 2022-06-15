@@ -381,9 +381,11 @@
   --semantic-font-family-feedback: "Pragmatica";
   --semantic-font-family-status: "Pragmatica";
   --semantic-font-family-navigation: "Pragmatica";
-  --semantic-font-weight-inputs: Regular;
+  --semantic-font-weight-body: Regular;
   --semantic-font-weight-actions: Medium;
   --semantic-font-weight-status: Regular;
+  --semantic-font-weight-headings: Bold;
+  --semantic-font-weight-card-headings: Semi Bold;
   --semantic-font-weight-typography-headings-300: Light;
   --semantic-font-weight-typography-headings-400: Regular;
   --semantic-font-weight-typography-headings-500: Medium;

@@ -1392,6 +1392,94 @@
         }
       }
     },
+    "font-weight": {
+      "headings": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "body": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "actions": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "status": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "card-headings": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
+      "typography": {
+        "headings": {
+          "300": {
+            "value": "Light",
+            "type": "fontWeights",
+            "default": "300"
+          },
+          "400": {
+            "value": "Regular",
+            "type": "fontWeights",
+            "default": "400"
+          },
+          "500": {
+            "value": "Medium",
+            "type": "fontWeights",
+            "default": "600"
+          },
+          "600": {
+            "value": "Semi Bold",
+            "type": "fontWeights",
+            "default": "700"
+          },
+          "700": {
+            "value": "Bold",
+            "type": "fontWeights",
+            "default": "700"
+          }
+        },
+        "body": {
+          "300": {
+            "value": "Light",
+            "type": "fontWeights",
+            "default": "700"
+          },
+          "400": {
+            "value": "Regular",
+            "type": "fontWeights",
+            "default": "700"
+          },
+          "500": {
+            "value": "Medium",
+            "type": "fontWeights",
+            "default": "700"
+          },
+          "600": {
+            "value": "SemiBold",
+            "type": "fontWeights",
+            "default": "700"
+          },
+          "700": {
+            "value": "Bold",
+            "type": "fontWeights",
+            "default": "700"
+          }
+        }
+      },
+      "feedback": {
+        "regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "Bold",
+          "type": "fontWeights"
+        }
+      }
+    },
     "secondary": {
       "default": {
         "value": "#4b5563",
@@ -1760,86 +1848,6 @@
       "navigation": {
         "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
-      }
-    },
-    "font-weight": {
-      "inputs": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "actions": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "status": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "typography": {
-        "headings": {
-          "300": {
-            "value": "Light",
-            "type": "fontWeights",
-            "default": "300"
-          },
-          "400": {
-            "value": "Regular",
-            "type": "fontWeights",
-            "default": "400"
-          },
-          "500": {
-            "value": "Medium",
-            "type": "fontWeights",
-            "default": "600"
-          },
-          "600": {
-            "value": "Semi Bold",
-            "type": "fontWeights",
-            "default": "700"
-          },
-          "700": {
-            "value": "Bold",
-            "type": "fontWeights",
-            "default": "700"
-          }
-        },
-        "body": {
-          "300": {
-            "value": "Light",
-            "type": "fontWeights",
-            "default": "700"
-          },
-          "400": {
-            "value": "Regular",
-            "type": "fontWeights",
-            "default": "700"
-          },
-          "500": {
-            "value": "Medium",
-            "type": "fontWeights",
-            "default": "700"
-          },
-          "600": {
-            "value": "SemiBold",
-            "type": "fontWeights",
-            "default": "700"
-          },
-          "700": {
-            "value": "Bold",
-            "type": "fontWeights",
-            "default": "700"
-          }
-        }
-      },
-      "feedback": {
-        "regular": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "bold": {
-          "value": "Bold",
-          "type": "fontWeights"
-        }
       }
     },
     "sizing": {

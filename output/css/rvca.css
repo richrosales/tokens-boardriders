@@ -381,9 +381,11 @@
   --semantic-font-family-feedback: Helvetica Neue;
   --semantic-font-family-status: Helvetica Neue;
   --semantic-font-family-navigation: Helvetica Neue;
-  --semantic-font-weight-inputs: Regular;
+  --semantic-font-weight-body: Regular;
   --semantic-font-weight-actions: Medium;
   --semantic-font-weight-status: Regular;
+  --semantic-font-weight-headings: Bold;
+  --semantic-font-weight-card-headings: Semi Bold;
   --semantic-font-weight-typography-headings-300: Light;
   --semantic-font-weight-typography-headings-400: Regular;
   --semantic-font-weight-typography-headings-500: Medium;

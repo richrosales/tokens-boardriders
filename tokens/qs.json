@@ -1767,7 +1767,7 @@
       }
     },
     "font-weight": {
-      "inputs": {
+      "body": {
         "value": "Regular",
         "type": "fontWeights"
       },
@@ -1777,6 +1777,14 @@
       },
       "status": {
         "value": "Regular",
+        "type": "fontWeights"
+      },
+      "headings": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "card-headings": {
+        "value": "Semi Bold",
         "type": "fontWeights"
       },
       "typography": {
