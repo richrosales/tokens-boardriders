@@ -1340,7 +1340,7 @@
     },
     "border": {
       "default": {
-        "value": "#f1f5f9",
+        "value": "#d4d4d8",
         "type": "color"
       },
       "radius": {

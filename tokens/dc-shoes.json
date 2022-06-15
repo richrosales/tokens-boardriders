@@ -1570,7 +1570,7 @@
     },
     "border": {
       "default": {
-        "value": "#e5e7eb",
+        "value": "#e7e5e4",
         "type": "color"
       },
       "radius": {
