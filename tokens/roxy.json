@@ -1,11 +1,11 @@
 {
   "font-family": {
     "font-1": {
-      "value": "\"Hurme Geometric Sans 3\"",
+      "value": "[object Object]",
       "type": "fontFamilies"
     },
     "font-2": {
-      "value": "\"Hurme Geometric Sans 3\"",
+      "value": "[object Object]",
       "type": "fontFamilies"
     }
   },
@@ -57,7 +57,7 @@
         "type": "color"
       },
       "subtle": {
-        "value": "#F2F3F2",
+        "value": "#f9f9fa",
         "type": "color"
       },
       "canvas": {
@@ -1820,33 +1820,33 @@
     },
     "font-family": {
       "inputs": {
-        "value": "\"Hurme Geometric Sans 3\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "actions": {
-        "value": "\"Hurme Geometric Sans 3\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "typography": {
         "headings": {
-          "value": "\"Hurme Geometric Sans 3\"",
+          "value": "[object Object]",
           "type": "fontFamilies"
         },
         "body": {
-          "value": "\"Hurme Geometric Sans 3\"",
+          "value": "[object Object]",
           "type": "fontFamilies"
         }
       },
       "feedback": {
-        "value": "\"Hurme Geometric Sans 3\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "status": {
-        "value": "\"Hurme Geometric Sans 3\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "navigation": {
-        "value": "\"Hurme Geometric Sans 3\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       }
     },

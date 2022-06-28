@@ -1,11 +1,11 @@
 {
   "font-family": {
     "font-1": {
-      "value": "\"Pragmatica\"",
+      "value": "[object Object]",
       "type": "fontFamilies"
     },
     "font-2": {
-      "value": "\"Pragmatica\"",
+      "value": "[object Object]",
       "type": "fontFamilies"
     }
   },
@@ -1732,33 +1732,33 @@
     },
     "font-family": {
       "inputs": {
-        "value": "\"Pragmatica\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "actions": {
-        "value": "\"Pragmatica\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "typography": {
         "headings": {
-          "value": "\"Pragmatica\"",
+          "value": "[object Object]",
           "type": "fontFamilies"
         },
         "body": {
-          "value": "\"Pragmatica\"",
+          "value": "[object Object]",
           "type": "fontFamilies"
         }
       },
       "feedback": {
-        "value": "\"Pragmatica\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "status": {
-        "value": "\"Pragmatica\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       },
       "navigation": {
-        "value": "\"Pragmatica\"",
+        "value": "[object Object]",
         "type": "fontFamilies"
       }
     },

@@ -1,6 +1,6 @@
 .dc-shoes-theme {
-          --font-family-font-1: "Pragmatica";
-  --font-family-font-2: "Pragmatica";
+          --font-family-font-1: [object Object];
+  --font-family-font-2: [object Object];
   --font-weight-semi-bold: Bold;
   --semantic-fg-default: #171717;
   --semantic-fg-muted: #404040;
@@ -374,13 +374,13 @@
   --semantic-font-size-inputs-md: 12;
   --semantic-font-size-inputs-lg: 14;
   --semantic-font-size-inputs-xl: 17;
-  --semantic-font-family-inputs: "Pragmatica";
-  --semantic-font-family-actions: "Pragmatica";
-  --semantic-font-family-typography-headings: "Pragmatica";
-  --semantic-font-family-typography-body: "Pragmatica";
-  --semantic-font-family-feedback: "Pragmatica";
-  --semantic-font-family-status: "Pragmatica";
-  --semantic-font-family-navigation: "Pragmatica";
+  --semantic-font-family-inputs: [object Object];
+  --semantic-font-family-actions: [object Object];
+  --semantic-font-family-typography-headings: [object Object];
+  --semantic-font-family-typography-body: [object Object];
+  --semantic-font-family-feedback: [object Object];
+  --semantic-font-family-status: [object Object];
+  --semantic-font-family-navigation: [object Object];
   --semantic-font-weight-body: Regular;
   --semantic-font-weight-actions: Medium;
   --semantic-font-weight-status: Regular;
