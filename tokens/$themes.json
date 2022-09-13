@@ -1,0 +1,122 @@
+[
+  {
+    "id": "4ecffec08660635c6a1954a044677620d6afb24b",
+    "name": "Brand I",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "rx": "disabled",
+      "dc": "disabled",
+      "bb": "disabled",
+      "el": "disabled",
+      "rv": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "f54458e95422381133e028214f6e0470a8b9f72e",
+    "name": "Quiksilver",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "qs": "enabled",
+      "rx": "disabled",
+      "dc": "disabled",
+      "bb": "disabled",
+      "el": "disabled",
+      "rv": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "5ecf5fdfdf721a42a4121274ced88c4427a61ad8",
+    "name": "Billabong",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "rx": "disabled",
+      "dc": "disabled",
+      "bb": "enabled",
+      "el": "disabled",
+      "rv": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "ef74bd07f209d33fa8ac396487267617721433b7",
+    "name": "RVCA",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "qs": "disabled",
+      "rx": "disabled",
+      "dc": "disabled",
+      "bb": "disabled",
+      "el": "disabled",
+      "rv": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "05bf17d0e9e1ee4557cb6724c2022f006456cf65",
+    "name": "ROXY",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "qs": "disabled",
+      "rx": "enabled",
+      "dc": "disabled",
+      "bb": "disabled",
+      "el": "disabled",
+      "rv": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "9842ae3e958449a57101d720744e3471ce1262d3",
+    "name": "DC Shoes",
+    "selectedTokenSets": {
+      "core": "source",
+      "comp": "enabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "qs": "disabled",
+      "desktop-typography": "enabled",
+      "compositions": "disabled",
+      "rx": "disabled",
+      "dc": "enabled",
+      "bb": "disabled",
+      "el": "disabled",
+      "rv": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "8a20b715e9fecd3c4716cf38baff0fcd08e95049",
+    "name": "Element",
+    "selectedTokenSets": {
+      "core": "enabled",
+      "comp": "disabled",
+      "semantic": "enabled",
+      "inverse": "disabled",
+      "bb": "disabled",
+      "rv": "disabled",
+      "qs": "disabled",
+      "rx": "disabled",
+      "desktop-typography": "disabled",
+      "compositions": "disabled",
+      "dc": "disabled",
+      "el": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

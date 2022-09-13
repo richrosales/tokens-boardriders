@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "semantic",
+    "comp",
+    "inverse",
+    "desktop-typography",
+    "compositions",
+    "bb",
+    "dc",
+    "el",
+    "qs",
+    "rv",
+    "rx"
+  ]
+}
