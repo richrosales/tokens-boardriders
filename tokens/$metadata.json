@@ -6,11 +6,11 @@
     "inverse",
     "desktop-typography",
     "compositions",
-    "bb",
-    "dc",
-    "el",
-    "qs",
-    "rv",
-    "rx"
+    "bb/main",
+    "dc/main",
+    "el/main",
+    "qs/main",
+    "rv/main",
+    "rx/main"
   ]
 }

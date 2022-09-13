@@ -6,11 +6,12 @@
       "core": "source",
       "comp": "enabled",
       "semantic": "enabled",
-      "rx": "disabled",
-      "dc": "disabled",
-      "bb": "disabled",
-      "el": "disabled",
-      "rv": "disabled"
+      "el/main": "disabled",
+      "bb/main": "disabled",
+      "qs/main": "disabled",
+      "dc/main": "disabled",
+      "rv/main": "disabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -22,12 +23,12 @@
       "comp": "enabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "qs": "enabled",
-      "rx": "disabled",
-      "dc": "disabled",
-      "bb": "disabled",
-      "el": "disabled",
-      "rv": "disabled"
+      "el/main": "disabled",
+      "bb/main": "disabled",
+      "qs/main": "enabled",
+      "dc/main": "disabled",
+      "rv/main": "disabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -39,11 +40,12 @@
       "comp": "enabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "rx": "disabled",
-      "dc": "disabled",
-      "bb": "enabled",
-      "el": "disabled",
-      "rv": "disabled"
+      "el/main": "disabled",
+      "bb/main": "enabled",
+      "qs/main": "disabled",
+      "dc/main": "disabled",
+      "rv/main": "disabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -55,12 +57,12 @@
       "comp": "enabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "qs": "disabled",
-      "rx": "disabled",
-      "dc": "disabled",
-      "bb": "disabled",
-      "el": "disabled",
-      "rv": "enabled"
+      "el/main": "disabled",
+      "bb/main": "disabled",
+      "qs/main": "disabled",
+      "dc/main": "disabled",
+      "rv/main": "enabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -72,12 +74,12 @@
       "comp": "enabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "qs": "disabled",
-      "rx": "enabled",
-      "dc": "disabled",
-      "bb": "disabled",
-      "el": "disabled",
-      "rv": "disabled"
+      "el/main": "disabled",
+      "bb/main": "disabled",
+      "qs/main": "disabled",
+      "dc/main": "disabled",
+      "rv/main": "disabled",
+      "rx/main": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -89,14 +91,14 @@
       "comp": "enabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "qs": "disabled",
       "desktop-typography": "enabled",
       "compositions": "disabled",
-      "rx": "disabled",
-      "dc": "enabled",
-      "bb": "disabled",
-      "el": "disabled",
-      "rv": "disabled"
+      "el/main": "disabled",
+      "bb/main": "disabled",
+      "qs/main": "disabled",
+      "dc/main": "enabled",
+      "rv/main": "disabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -108,14 +110,14 @@
       "comp": "disabled",
       "semantic": "enabled",
       "inverse": "disabled",
-      "bb": "disabled",
-      "rv": "disabled",
-      "qs": "disabled",
-      "rx": "disabled",
       "desktop-typography": "disabled",
       "compositions": "disabled",
-      "dc": "disabled",
-      "el": "enabled"
+      "el/main": "enabled",
+      "bb/main": "disabled",
+      "qs/main": "disabled",
+      "dc/main": "disabled",
+      "rv/main": "disabled",
+      "rx/main": "disabled"
     },
     "$figmaStyleReferences": {}
   }
